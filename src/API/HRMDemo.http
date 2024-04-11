@@ -1,0 +1,11 @@
+@HRMDemo_HostAddress = http://localhost:5072
+
+POST {{HRMDemo_HostAddress}}/sumbit/
+Accept: application/json
+
+###
+
+GET {{HRMDemo_HostAddress}}/approvers/
+Returns: application/json
+
+###
